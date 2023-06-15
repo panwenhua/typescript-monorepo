@@ -10,7 +10,7 @@
         "fmt": "prettier --write '{*,**/*}.{ts,tsx,js,jsx,json}'",
         "lint": "prettier --check '{*,**/*}.{ts,tsx,js,jsx,json}' && eslint",
         "lint:fix": "pnpm fmt && eslint --fix",
-        "nuke": "shx rm -rf node_modules pnpm-lock.yaml packages/*/*/node_modules packages/*/*/pnpm-lock.yaml || true",
+        "nuke": "shx rm -rf node_modules pnpm-lock.yaml packages/*/node_modules packages/*/pnpm-lock.yaml || true",
         "reinstall": "pnpm nuke && pnpm install"
     },
     "devDependencies": {

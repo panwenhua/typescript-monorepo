@@ -2,16 +2,16 @@
     "extends": "./tsconfig.root.json",
     "references": [
         {
-            "path": "./packages/app/create-react-app/tsconfig.root.json"
+            "path": "./packages/app1/tsconfig.root.json"
         },
         {
-            "path": "./packages/app/parcel"
+            "path": "./packages/app2/tsconfig.root.json"
         },
         {
-            "path": "./packages/core/base"
+            "path": "./packages/app3/tsconfig.root.json"
         },
         {
-            "path": "./packages/ui/react"
+            "path": "./packages/components"
         }
     ]
 }
